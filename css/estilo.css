@@ -1,0 +1,623 @@
+/*Pagina inicio*/
+
+/*body*/
+
+body{
+	margin:0;
+	font-family:"Roboto";
+	background-color:#006699; 
+} 
+
+#principal{ 
+	width:1280px;
+	font-family:"Roboto";
+	margin: auto;
+	background-color: white;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Encabezado*/
+
+header{
+
+	background-color: #025373;
+	width: 1280px;
+}
+
+/*Titulo*/
+
+header h1{
+	
+	color:white;
+	font-size:55px;
+	margin-top: 0px;
+	margin-left:50px;
+}
+
+/*Menu de navegacion*/
+
+h1, nav{
+
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav {
+
+	padding: 20px;
+}
+
+.navegacion{background:white;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navegacion a{color: #1b3b3b;}
+
+#lista{
+	position:relative;
+	display:inline-block;
+}
+
+ul #lista:hover #absoluta{
+	display:block;
+	margin:0;
+
+}
+
+ul{
+	margin:0px;
+}
+
+nav ul li {
+	display:inline-block;
+	padding:10px 0px;
+	width:120px;
+	margin:10px 25px;
+	text-align: center;
+}
+
+li a{
+	color:white; 
+	text-decoration:none;
+	display:inline-block;
+	
+}
+
+a:hover{
+	color:#87b719;
+}
+
+#absoluta{
+	position:absolute;
+	padding-left:0px;
+	display:none;
+	margin:0;
+	top:40px;
+	left:0px;
+}
+#absoluta li{
+	margin: 0px;
+	position:relative;
+	background: #025373;
+	border:solid 1px white;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#absoluta li a{
+	color:white;
+}
+#absoluta li a:hover{
+	color:#87b719;
+}
+
+/*banner superior*/
+
+#banner1{
+	width: 1280px;
+	height: 720px;
+	background: url(../imagenes/nyhavn.jpg);
+}
+
+.caption  {
+	padding-top: 320px;
+	font-family: "Roboto";
+	margin-left: 80px;
+	font-size: 40px;
+	color: #fff;
+	font-weight: 100px;
+}
+
+#linea{
+	border-left:5px solid #9fd12d; /*rojo #871208 verde #1b3b3b*/
+	padding-left:20px;
+	padding-bottom:10px;
+}
+
+/*premios pagina inicio*/
+
+#datos {
+	background-color:#025373;	
+	margin-top:-23px;
+	height:300px;
+	font-family:"Roboto";
+	font-weight:500;
+	color:white;
+	font-size:40px;
+	width:1280px;
+	text-align: center;
+	font-weight: 300;
+}
+
+#verdeCapital {
+	background:url("../imagenes/eco-friendly.png") no-repeat 170px 0;
+	padding-top:90px;
+	width:415px;
+	display:inline-block;
+	margin-top:55px;
+	text-align:center;	
+}
+
+#feliz {
+	background:url("../imagenes/smile.png") no-repeat 170px 0;
+	padding-top:90px;
+	width: 415px;
+	display:inline-block;
+	margin-top:55px;	
+	text-align:center;
+}
+
+#saludable {
+	background: url("../imagenes/health.png") no-repeat 170px 0;
+	padding-top:90px;
+	width:395px;
+	display:inline-block;
+	margin-top:55px;
+	text-align:center;
+}
+
+/*Subtitulo*/
+
+#subtitulo h2 {
+	font-family:"Roboto";
+	font-weight:500;
+	text-align:center;
+	color: #1b3b3b;
+	font-size:74px;
+	margin-top:45px;
+	margin-bottom:45px;
+}
+
+/*Video pagina inicio*/
+
+#video {
+	display:block;
+	margin:45px auto;
+}
+
+/*imagenes lugares pagina inicio*/
+
+#lugares {
+	
+	width: 1280px;	
+	background-color: #f27405;
+	padding-top: 20px;
+}
+
+/*Textos pagina inicio*/
+
+#texto1 {
+	font-family:"Roboto";
+	font-weight:500;
+	color:black;
+	margin-left:40px;
+	float:left;
+	width:572px;
+	font-size:22px;
+	margin-top:25px;
+	margin-bottom:45px;
+	text-align:justify;
+}
+
+#texto2 {
+	font-family:"Roboto";
+	font-weight:500;
+	color:black;
+	margin-right:40px;
+	float:right;
+	width:572px;
+	font-size:22px;
+	margin-top:25px;
+	margin-bottom:45px;
+	text-align:justify;
+}
+
+/*imagen Forest Tower pagina inicio*/
+
+/*footer*/
+
+#footer {
+	width:1280px;
+	height:170px;
+	background-color:#025373;
+	margin-top:-25px;
+	padding-top: 30px;
+}
+
+#footer li {
+	display:inline-block;
+	margin: 20px;
+	text-align:center;
+	display:block;
+	color:white;
+	line-height:13px;
+}
+
+
+
+/*Pagina atracciones*/
+
+/*banner superior */
+#banner2{
+	width: 1280px;
+	height: 566px;
+	background: url(../imagenes/tivoli-gardens.jpg);
+}
+
+.caption1{
+	padding-top: 250px;
+	font-family: "Roboto";
+	margin-left: 80px;
+	font-size: 40px;
+	color: #fff;
+	font-weight: 100px;	
+}
+
+/*titulos de los itinerarios*/
+
+#itinerario h3{
+	font-family:"Roboto";
+	font-size:50px;
+	font-weight:500;
+	color:white;
+	display:inline-block;
+}
+
+/*Imagenes de los itinerarios*/
+
+#itinerario img {
+		display:inline-block;
+		padding-top:45px;
+		padding-left:40px;
+		padding-bottom:45px;
+}
+
+/*Separacion entre atracciones*/
+
+.separacion {
+	margin-top:45px;
+	width:1280px;
+	margin-bottom:45px;
+
+}
+
+/*Titulo y texto de cada atraccion*/
+
+.izquierda {
+	float:left;
+	padding-left:40px;
+	padding-top:45px;
+	width: 555px; 
+	margin: 0px;
+}
+
+.derecha {
+	float:right;
+	padding-right:25px;
+	padding-top:45px;
+	width: 555px; 
+}
+
+.textoder {
+	display:inline-block;
+	color:white;
+	width:500px;
+	padding-bottom:25px;	
+	margin-top:-280px;
+	float:right;
+	padding-right:80px
+}
+
+.textoizq {
+	display:inline-block;
+	color:white;
+	width:500px;
+	padding-bottom:25px;
+	margin-top:-300px;
+	float:left;
+	padding-left:40px;
+	margin-left: 0px;
+}
+
+#espacio {
+
+	margin-top:-340px;
+}
+
+#espacio2 {
+
+	margin-top:-340px;
+}
+
+/*Capas de colores por atraccion*/
+
+.capa1naranja{
+	background-color:#ef9b52;
+	width:1249px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+
+.capa2naranja{
+	background-color:#ee8529;
+	width:1239px;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-right: -40px
+	padding-right: ;
+}
+
+
+.capa3naranja{
+	background-color:#f27405;
+	width:1229px;
+	padding-top:5px;
+	overflow: auto;
+}
+
+#capa1verde{
+	background-color:#144d4d;
+	width:1249px;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-left:31px;
+}
+
+#capa2verde{
+	background-color:#093737;
+	width:1239px;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-left: 10px;
+}
+
+
+#capa3verde{
+	background-color:#012626;
+	width:1229px;
+	padding-top:5px;
+	margin-left: 10px;
+	overflow: auto;
+}
+
+#capa1verde2{
+	background-color:#c1ec5e;
+	width:1249px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+
+#capa2verde2{
+	background-color:#9fd12d;
+	width:1239px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+
+#capa3verde2{
+	background-color:#87b719;
+	width:1229px;
+	padding-top:5px;
+	overflow: auto;
+}
+
+
+#capa1azul{
+	background-color:#4ba5c8;
+	width:1249px;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-left:31px;
+}
+
+#capa2azul{
+	background-color:#1c7496;
+	width:1239px;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-left: 10px;
+}
+
+
+#capa3azul{
+	background-color:#025373;
+	width:1229px;
+	padding-top:5px;
+	margin-left: 10px;
+	overflow: auto;
+}
+
+
+
+
+/*Pagina informacion*/
+
+/*Banner superior*/
+
+
+#banner3{
+	width: 1280px;
+	height: 671px;
+	background: url(../imagenes/Børsen.jpg);
+}
+
+
+/*tours por seccion derecha e izquierda*/
+
+
+.tourd{
+	overflow: auto;
+	width: 1280px;
+	padding-top: -10px;
+	background-color: #025373;
+	padding-bottom: 30px;
+}
+
+.touri{
+	overflow: auto;
+	width: 1280px;
+	padding-top: -50px;
+	background-color: #f27405;
+	padding-bottom: 30px;
+}
+
+/*Imagenes de tours por seccion derecha e izquierda*/
+
+.imgizq{
+	padding-top: 0;
+	display: inline-block;
+	margin-left: 610px; 
+	margin-top: -10px;
+}
+
+/*Titulos tours por seccion derecha e izquierda*/
+
+.derecha2{
+	
+	float:right;
+	margin-top: 85px;
+	padding-right: 100px;
+	width: 495px; 
+}
+
+.izquierda2{
+
+	float:left;
+	margin-left: 50px;
+	margin-top:-400px;
+	width: 525px; 
+}
+
+/*Textos tours por seccion derecha e izquierda*/
+
+.der2{
+	display:inline-block;
+	color:white;
+	width:495px;
+	padding-bottom:25px;
+	padding-right: 100px;	
+	margin-top:-250px;
+	float:right;
+}
+
+.izq2{
+	display:inline-block;
+	color:white;
+	width:495px;
+	padding-bottom:25px;
+	margin-left: 50px;	
+	margin-top:-250px;
+	float:left;
+}
+
+/*Palabra clickeable RESERVA YA*/
+
+#itinerario a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+/*Pagina Contacto*/
+
+/*banner superior */
+
+#banner4{
+	width: 1280px;
+	height: 574px;
+	background-image: url(../imagenes/Blagaardsgade.jpg);
+}
+
+
+/*Formulario bloque completo*/
+
+#formulario {
+	width:1280px;
+	height:500px;
+	padding-top:85px;
+	color:white;
+	background-color:#025373;
+	font-size:20px;
+	line-height : 35px;
+	margin: auto;
+	text-align:center;
+}
+
+/*textarea*/
+
+textarea{
+	width: 200px;
+	resize: none;
+}
+
+/*separacion entre inputs*/
+
+#formulario span {
+	display:block;
+}
+
+/*mapa*/
+
+#mapa {
+	display:block;
+	margin:auto;
+}
+
+/*Pagina Gracias*/
+
+/*menasje de consulta enviada*/
+
+#gracias {
+	height: 500px;
+	background-color: ;
+	color: white;
+	background: #f27405 url(../imagenes/celular.png) no-repeat 105px 38px;
+	
+}
+
+#enviada{
+	font-size: 70px;	
+	display: inline-block;
+	margin-left: 800px;
+	margin-top: 90px;
+	font-weight: 200;
+}
+
+#comunicarte{
+	margin-left: 800px;
+	margin-top: 20px;
+	font-weight: 300;
+}
+

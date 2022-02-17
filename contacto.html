@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto Copenhague</title>
+    <link rel="stylesheet" href="css/estilo.css"/>
+</head>
+<body>
+
+<div id="principal">
+	
+	<header>
+
+		<h1>Visita Copenhague</h1>
+
+		<nav>      
+
+			<ul>
+				<li><a href="index.html"> Home </a></li>
+				<li><a href="atracciones.html"> Atracciones </a></li>
+				<li><a href="informacion.html"> Información </a></li>
+				<li class="navegacion"><a href="contacto.html"> Contacto </a></li>
+			</ul>
+
+		</nav>
+		
+	</header>
+	
+	<div id="banner4">
+
+		<section class="caption1">
+			<h2 id="linea">Reserva<br/>
+			tu tour<br/>
+			guíado</h2>	
+		</section>
+
+	</div>	
+	
+	<div id="formulario">
+
+		<h2>¿Quieres reservar una visita guiada?</h2>
+
+		<p>A través de este formulario puedes reservar tu visita guiada y así tendrás una fecha para poder visitar los mejores lugares de Copenhague</p>
+
+		<form action="http://recursos.grodriguez.com.ar/FORM/" method="post" enctype="multipart/form-data" target="_blank">
+
+				<div>
+					<span>Nombre y Apellido</span>
+						<input type="text" name="nombre" placeholder="*Campo Obligatorio"  required />
+				</div>
+				<div>
+					<span>Email:</span>
+						<input type="email" name="email" placeholder="*Campo Obligatorio" required />
+				</div>
+				<div>
+					<label><span>¿Qué lugar deseas visitar?</span></label>
+					<input type="text" name="visita guiada" list="VisitaGuiada" placeholder="*Campo Obligatorio" required />
+					<datalist id="VisitaGuiada">
+						<option>Tour en Bici</option>
+						<option>Tour en Segway</option>
+						<option>Tour por los canales</option>
+						<option>Tour por los castillos</option>
+					</datalist>
+				</div>
+				<div>
+					<span>Mensaje</span>
+					<textarea name="mensaje" rows="5" cols="15"></textarea>
+				</div>
+
+				<div>
+					<input id="acepto" checked="checked"  type="checkbox" name="acepto" value="si" />
+					<label for="acepto">Acepto los terminos y condiciones</label>
+				</div>
+    
+			<input type="submit" value="Enviar">
+
+    		<input type="reset" value="Comenzar de nuevo">
+
+		</form>
+	</div>
+
+	<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d171324.95393250135!2d12.396456901559503!3d55.65351876489393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652533c5c803d23%3A0x4dd7edde69467b8!2sCopenhague%2C%20Dinamarca!5e0!3m2!1ses!2sar!4v1593652457586!5m2!1ses!2sar" width="1280" height="300" style="border:0;" allowfullscreen></iframe>
+
+
+	<footer id="footer">
+	
+		<ul>
+			<li>Andrés Quintero</li>
+			<li>Diseño y Maquetado Web</li>
+			<li>Profesora: Mabel Garcia </li>
+			<li>Entrega para un TP de primer cuatrimestre de la Escuela Da Vinci 2020.</li>
+		</ul>
+	
+	</footer>
+	
+</div>
+
+</body>
+
+</html>
