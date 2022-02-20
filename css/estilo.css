@@ -23,18 +23,17 @@ body{
 /*Encabezado*/
 
 header{
-
 	background-color: #025373;
 	width: 1280px;
 }
 
 /*Titulo*/
 
-header h1{
-	
+header h1{	
 	color:white;
 	font-size:55px;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	margin-left:50px;
 }
 
@@ -651,31 +650,39 @@ textarea{
 	/*Encabezado*/
 
 	header{
-
-	background-color: #025373;
-	width: 480px;
+		width: 480px;
 	}
 
 	header h1{
 		font-size: 40px;
-		margin-left: 130px;
-		border: 1px solid redx;
+		margin-left: 70px;
+		border: 1px solid red;
 	}
 
 	#menu{
-		background: url(menu.png) no-repeat;
+		background: url(../imagenes/menu.png) no-repeat;
 		width: 36px; 
 		height: 36px;
 		display:inline-block;
 		font-size:0;
 		border:solid 1px blue; 
-		margin-top:0px; 
-		margin-left:0px;
+		margin-left:30px;
+		vertical-align: middle;
+	}
+
+	#menuNav:target{
+		display:block;
+		width:200px; 
+		margin-left:140px;
+	}
+
+	#menuNav{
+		display: none;
 	}
 
 	#cerrar{
 		display:block;
-		background:url(cerrar.png) no-repeat;
+		background:url(../imagenes/close.png) no-repeat;
 		width: 36px;
 		height: 36px; 
 		font-size: 0
