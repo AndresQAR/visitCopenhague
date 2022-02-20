@@ -50,7 +50,9 @@ h1, nav{
 	display:none;
 }
 
-
+nav ul li:first-child{
+	display: none;
+}
 
 .navegacion{background:white;
 	border-top-left-radius: 5px;
@@ -763,5 +765,7 @@ textarea{
 		margin-top:-25px;
 		padding-top: 30px;
 	}
+
+	/*Pagina atracciones*/
 	
 }
