@@ -34,7 +34,7 @@ header h1{
 	
 	color:white;
 	font-size:55px;
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-left:50px;
 }
 
@@ -49,6 +49,13 @@ h1, nav{
 nav {
 
 	padding: 20px;
+}
+#menu{
+	display:none;
+}
+
+#cerrar{
+	display:none;
 }
 
 .navegacion{background:white;
@@ -144,7 +151,7 @@ a:hover{
 /*premios pagina inicio*/
 
 #datos {
-	background-color:#025373;	
+	background-color:#03729e;	
 	margin-top:-23px;
 	height:300px;
 	font-family:"Roboto";
@@ -186,13 +193,10 @@ a:hover{
 /*Subtitulo*/
 
 #subtitulo h2 {
-	font-family:"Roboto";
-	font-weight:500;
 	text-align:center;
 	color: #1b3b3b;
-	font-size:74px;
-	margin-top:45px;
-	margin-bottom:45px;
+	font-size:60px;
+	margin:45px;
 }
 
 /*Video pagina inicio*/
@@ -204,14 +208,30 @@ a:hover{
 
 /*imagenes lugares pagina inicio*/
 
+#lugares h2{
+	font-size: 60px;
+	margin:45px;
+	color: white;
+}
+
 #lugares {
-	
+	text-align: center;
 	width: 1280px;	
-	background-color: #f27405;
+	background-color: #03729e;
 	padding-top: 20px;
 }
 
 /*Textos pagina inicio*/
+
+#aprendamostxt{
+	text-align: center;
+}
+
+#aprendamostxt h2{
+	margin: 50px;
+	font-size: 60px;
+	color: #1b3b3b;
+}
 
 #texto1 {
 	font-family:"Roboto";
@@ -617,9 +637,52 @@ textarea{
 
 /*Mobile*/
 
-@media screen and (max-width:400px){
+@media screen and (max-width:480px){
+
+	/*Pagina inicio*/
+
+	#principal{ 
+		width:480px;
+		font-family:"Roboto";
+		margin: auto;
+		background-color: white;
+	}
+
+	/*Encabezado*/
+
+	header{
+
+	background-color: #025373;
+	width: 480px;
+	}
+
+	header h1{
+		font-size: 40px;
+		margin-left: 130px;
+		border: 1px solid redx;
+	}
+
+	#menu{
+		background: url(menu.png) no-repeat;
+		width: 36px; 
+		height: 36px;
+		display:inline-block;
+		font-size:0;
+		border:solid 1px blue; 
+		margin-top:0px; 
+		margin-left:0px;
+	}
+
+	#cerrar{
+		display:block;
+		background:url(cerrar.png) no-repeat;
+		width: 36px;
+		height: 36px; 
+		font-size: 0
+	}
+
 	#banner1{
-		width: 400px;
+		width: 480px;
 		height: 520px;
 		background: url(../imagenes/nyhavn-mobile.jpg) no-repeat;
 		
@@ -638,6 +701,61 @@ textarea{
 		border-left:5px solid #9fd12d; /*rojo #871208 verde #1b3b3b*/
 		padding-left:20px;
 		padding-bottom:10px;
+	}
+
+	aside{
+		display: none;
+	}
+
+	#subtitulo h2 {
+		color: #1b3b3b;
+		font-size:30px;
+		
+	}
+
+	h2 span {
+		display: block;	
+	}
+
+	iframe{
+		width: 460px;
+		height: 260px;
+	}
+
+	#lugares {	
+		display: none;
+
+	}
+	
+	#aprendamostxt h2{
+		margin: 50px;
+		font-size: 30px;
+		color: #1b3b3b;
+	}
+
+	#texto1{
+		width: 400px;
+		float: none;
+		margin-left:40px ;	
+	}
+	
+	#texto1 p{
+		margin-bottom: 10px;
+
+	}
+
+	#texto2{
+		display: none;
+	}
+
+	/*footer*/
+
+	#footer {
+		width:480px;
+		height:170px;
+		background-color:#025373;
+		margin-top:-25px;
+		padding-top: 30px;
 	}
 	
 }
