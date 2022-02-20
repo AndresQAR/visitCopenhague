@@ -186,7 +186,7 @@ a:hover{
 	text-align:center;
 }
 
-/*Subtitulo*/
+/*Subtitulo 2da seccion*/
 
 #subtitulo h2 {
 	text-align:center;
@@ -650,11 +650,15 @@ textarea{
 		width: 480px;
 	}
 
+	/*Titulo*/
+
 	header h1{
 		font-size: 40px;
 		margin-left: 70px;
 		border: 1px solid red;
 	}
+
+	/*Menu de navegacion*/
 
 	#menu{
 		background: url(../imagenes/menu.png) no-repeat;
@@ -689,6 +693,8 @@ textarea{
 		font-size: 0
 	}
 
+	/*banner superior*/
+
 	#banner1{
 		width: 480px;
 		height: 520px;
@@ -711,9 +717,13 @@ textarea{
 		padding-bottom:10px;
 	}
 
+	/*premios pagina inicio*/
+
 	aside{
 		display: none;
 	}
+
+	/*Subtitulo 2da seccion*/
 
 	#subtitulo h2 {
 		color: #1b3b3b;
@@ -725,16 +735,21 @@ textarea{
 		display: block;	
 	}
 
+	/*Video pagina inicio*/
+
 	iframe{
 		width: 460px;
 		height: 260px;
 	}
 
+	/*imagenes lugares pagina inicio*/
+
 	#lugares {	
 		display: none;
-
 	}
 	
+	/*Textos pagina inicio*/
+
 	#aprendamostxt h2{
 		margin: 50px;
 		font-size: 30px;
@@ -766,6 +781,23 @@ textarea{
 		padding-top: 30px;
 	}
 
+
 	/*Pagina atracciones*/
+
+	/*banner superior */
+
+	#banner2{
+		width: 480px;
+		height: 520px;
+		background: url(../imagenes/tivoli-gardens-mobile.jpg) no-repeat;
+	}
 	
+	.caption1{
+		padding-top: 320px;
+		font-family: "Roboto";
+		margin-left: 40px;
+		font-size: 20px;
+		color: #fff;
+		font-weight: 100px;	
+	}
 }
