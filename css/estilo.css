@@ -360,13 +360,11 @@ a:hover{
 	margin-left: 0px;
 }
 
-#espacio {
-
+.espacio {
 	margin-top:-340px;
 }
 
 #espacio2 {
-
 	margin-top:-340px;
 }
 
@@ -396,7 +394,7 @@ a:hover{
 	overflow: auto;
 }
 
-#capa1verde{
+.capa1verde{
 	background-color:#144d4d;
 	width:1249px;
 	padding-bottom:5px;
@@ -404,7 +402,7 @@ a:hover{
 	margin-left:31px;
 }
 
-#capa2verde{
+.capa2verde{
 	background-color:#093737;
 	width:1239px;
 	padding-bottom:5px;
@@ -413,7 +411,7 @@ a:hover{
 }
 
 
-#capa3verde{
+.capa3verde{
 	background-color:#012626;
 	width:1229px;
 	padding-top:5px;
@@ -421,7 +419,7 @@ a:hover{
 	overflow: auto;
 }
 
-#capa1verde2{
+.capa1verde2{
 	background-color:#c1ec5e;
 	width:1249px;
 	padding-bottom:5px;
@@ -429,7 +427,7 @@ a:hover{
 }
 
 
-#capa2verde2{
+.capa2verde2{
 	background-color:#9fd12d;
 	width:1239px;
 	padding-bottom:5px;
@@ -437,7 +435,7 @@ a:hover{
 }
 
 
-#capa3verde2{
+.capa3verde2{
 	background-color:#87b719;
 	width:1229px;
 	padding-top:5px;
@@ -445,7 +443,7 @@ a:hover{
 }
 
 
-#capa1azul{
+.capa1azul{
 	background-color:#4ba5c8;
 	width:1249px;
 	padding-bottom:5px;
@@ -453,7 +451,7 @@ a:hover{
 	margin-left:31px;
 }
 
-#capa2azul{
+.capa2azul{
 	background-color:#1c7496;
 	width:1239px;
 	padding-bottom:5px;
@@ -462,7 +460,7 @@ a:hover{
 }
 
 
-#capa3azul{
+.capa3azul{
 	background-color:#025373;
 	width:1229px;
 	padding-top:5px;
@@ -764,7 +762,6 @@ textarea{
 	
 	#texto1 p{
 		margin-bottom: 10px;
-
 	}
 
 	#texto2{
@@ -812,50 +809,82 @@ textarea{
 
 	#itinerario img {
 		padding-left:0px;
-	}
-
-	.textoder{
-		width: 440px;
-		float: none;
-		padding-right:0px
-	}
-	
-	.box{
-		position: relative;
-		border: 1px solid blue;
-	}
-
-	.overimg{
-		position: absolute;
-		left: 20px;
-		top: 550px;
-	}
-
-	.overimgtxt{
-		position: absolute;
-		left: 20px;
-		top: 60px;
-	}
-	
-	.derecha {
-		float: none;
-		padding-right:0px;
-		padding-top:0px;
- 
-	}
-	.reducir{
-		display: none;
+		padding-bottom:45px ;
 	}
 
 	/*Separacion entre atracciones*/
 
 	.separacion {
-		margin-top:0	px;
-		width:1280px;
+		margin-top:0px;
+		width:480px;
 		margin-bottom:0px;
 
 	}
 
+	/*Titulo y texto de cada atraccion*/
+	#espacio {
+		margin-top:0px;
+	}
+	
+	.izquierda {
+		float:right;
+		padding-left:40px;
+		padding-top:45px;
+		width: 555px; 
+		margin: 0px;
+	}
+	.derecha {
+		float: none;
+		padding-right:0px;
+		padding-top:0px;
+	}
+	.textoder{
+		width: 440px;
+		float: none;
+		padding-right:0px
+	}
+
+	.textoizq {	
+		width:440px;
+		padding-bottom:25px;
+		margin-top:0px;
+		float:none;
+		padding-left:40px;
+		margin-left: 0px;
+	}
+	
+	.box{
+		position: relative;
+	}
+
+	.overimg{
+		position: absolute;
+	}
+	
+	.reducir{
+		display: none;
+	}
+
+	#title1position{
+		left: 20px;
+		top: 60px;
+	}
+	
+	#txt1position{
+		left: 20px;
+		top: 550px;
+	}
+	
+	#title2position{
+		left:-20px;
+		top: 30px;
+	}
+	
+	#txt2position{
+		left: -20px;
+		top: 250px;
+	}
+	
 	/*Capas de colores por atraccion*/
 
 	.capa1naranja{
@@ -865,7 +894,6 @@ textarea{
 		padding-top:5px;
 	}
 
-
 	.capa2naranja{
 		background-color:#ee8529;
 		width: 480px;
@@ -874,7 +902,6 @@ textarea{
 		margin-right:0px;
 	}
 
-
 	.capa3naranja{
 		background-color:#f27405;
 		width: 480px;
@@ -882,4 +909,29 @@ textarea{
 		overflow: auto;
 	}
 	
+	.capa1verde{
+		background-color:#144d4d;
+		width:480px;
+		padding-bottom:5px;
+		padding-top:5px;
+		margin-left:0px;
+		overflow: auto;
+	}
+	
+	.capa2verde{
+		background-color:#093737;
+		width:480px;
+		padding-bottom:5px;
+		padding-top:5px;
+		margin-left:0px;
+		overflow: auto;
+	}
+		
+	.capa3verde{
+		background-color:#012626;
+		width:480px;
+		padding-top:5px;
+		margin-left:0px;
+		overflow: auto;
+	}
 }
