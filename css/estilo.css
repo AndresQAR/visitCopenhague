@@ -801,6 +801,13 @@ textarea{
 		font-weight: 100px;	
 	}
 
+	/*titulos de los itinerarios*/
+
+	#itinerario h3{
+		font-size: 35px;
+		width: 400px;
+	}
+
 	/*Imagenes de los itinerarios*/
 
 	#itinerario img {
@@ -809,12 +816,13 @@ textarea{
 
 	.textoder{
 		width: 440px;
+		float: none;
+		padding-right:0px
 	}
 	
 	.box{
 		position: relative;
 		border: 1px solid blue;
-
 	}
 
 	.overimg{
@@ -837,6 +845,41 @@ textarea{
 	}
 	.reducir{
 		display: none;
+	}
+
+	/*Separacion entre atracciones*/
+
+	.separacion {
+		margin-top:0	px;
+		width:1280px;
+		margin-bottom:0px;
+
+	}
+
+	/*Capas de colores por atraccion*/
+
+	.capa1naranja{
+		background-color:#ef9b52;
+		width:480px;
+		padding-bottom:5px;
+		padding-top:5px;
+	}
+
+
+	.capa2naranja{
+		background-color:#ee8529;
+		width: 480px;
+		padding-bottom:5px;
+		padding-top:5px;
+		margin-right:0px;
+	}
+
+
+	.capa3naranja{
+		background-color:#f27405;
+		width: 480px;
+		padding-top:5px;
+		overflow: auto;
 	}
 	
 }
