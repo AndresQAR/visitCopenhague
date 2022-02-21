@@ -509,8 +509,7 @@ a:hover{
 
 /*Titulos tours por seccion derecha e izquierda*/
 
-.derecha2{
-	
+.derecha2{	
 	float:right;
 	margin-top: 85px;
 	padding-right: 100px;
@@ -518,7 +517,6 @@ a:hover{
 }
 
 .izquierda2{
-
 	float:left;
 	margin-left: 50px;
 	margin-top:-400px;
@@ -981,5 +979,73 @@ textarea{
 		width:480px;
 		margin-left: 0px;
 		overflow: auto;
+	}
+
+
+	/*Pagina informacion*/
+
+	/*Banner superior*/
+
+	#banner3{
+		width: 480px;
+		height: 520px;
+		background: url(../imagenes/børsen-mobile.jpg) no-repeat;
+	}
+
+	/*tours por seccion derecha e izquierda*/
+
+	.tourd{
+		width: 480px;
+	}
+
+	.touri{
+		width: 480px;
+	}
+	
+	/*Imagenes de tours por seccion derecha e izquierda*/
+
+	.imgizq{
+		padding-top: 0;
+		margin-left: 0px; 
+		margin-top: 0px;
+	}
+
+	/*Titulos tours por seccion derecha e izquierda*/
+
+	.derecha2{		
+		float:none;
+		margin-top: 0px;
+		padding-right: 0px;
+		width: 400px;
+		top: 120px;
+		left: 15px; 
+	}
+
+	.izquierda2{
+		float:none;
+		margin-left: 0px;
+		margin-top:-400px; /*ojo puede ser un problema*/
+		width: 400px; 
+	}
+
+	/*Textos tours por seccion derecha e izquierda*/
+
+	.der2{
+		width:460px;
+		padding-bottom:0px;
+		padding-right: 0px;	
+		margin-top:0px;
+		float: none;
+		top: 230px;
+		left: 15px; 
+	}
+
+	.izq2{
+		color:white;
+		width:495px;
+		padding-bottom:25px;
+		margin-left: 50px;	
+		margin-top:-250px;
+		float: left;
 	}
 }
