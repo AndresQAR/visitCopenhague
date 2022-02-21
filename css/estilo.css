@@ -291,7 +291,7 @@ a:hover{
 	padding-top: 250px;
 	font-family: 'Open Sans', sans-serif;
 	margin-left: 80px;
-	font-size: 40px;
+	font-size: 30px;
 	color: #fff;
 	font-weight: 100px;	
 }
@@ -345,9 +345,9 @@ a:hover{
 	color:white;
 	width:500px;
 	padding-bottom:25px;	
-	margin-top:-280px;
 	float: right;
-	padding-right:80px
+	padding-right:80px;
+	margin-top:-280px;
 }
 
 .textoizq {
@@ -364,19 +364,18 @@ a:hover{
 	margin-top:-340px;
 }
 
-#espacio2 {
+.espacio2 {
 	margin-top:-340px;
 }
 
 /*Capas de colores por atraccion*/
-
+/*1era*/
 .capa1naranja{
 	background-color:#ef9b52;
 	width:1249px;
 	padding-bottom:5px;
 	padding-top:5px;
 }
-
 
 .capa2naranja{
 	background-color:#ee8529;
@@ -386,7 +385,6 @@ a:hover{
 	margin-right: -40px
 }
 
-
 .capa3naranja{
 	background-color:#f27405;
 	width:1229px;
@@ -394,6 +392,7 @@ a:hover{
 	overflow: auto;
 }
 
+/*2da*/
 .capa1verde{
 	background-color:#144d4d;
 	width:1249px;
@@ -410,7 +409,6 @@ a:hover{
 	margin-left: 10px;
 }
 
-
 .capa3verde{
 	background-color:#012626;
 	width:1229px;
@@ -419,13 +417,13 @@ a:hover{
 	overflow: auto;
 }
 
+/*3era*/
 .capa1verde2{
 	background-color:#c1ec5e;
 	width:1249px;
 	padding-bottom:5px;
 	padding-top:5px;
 }
-
 
 .capa2verde2{
 	background-color:#9fd12d;
@@ -434,7 +432,6 @@ a:hover{
 	padding-top:5px;
 }
 
-
 .capa3verde2{
 	background-color:#87b719;
 	width:1229px;
@@ -442,7 +439,7 @@ a:hover{
 	overflow: auto;
 }
 
-
+/*4ta*/
 .capa1azul{
 	background-color:#4ba5c8;
 	width:1249px;
@@ -458,7 +455,6 @@ a:hover{
 	padding-top:5px;
 	margin-left: 10px;
 }
-
 
 .capa3azul{
 	background-color:#025373;
@@ -825,6 +821,10 @@ textarea{
 	#espacio {
 		margin-top:0px;
 	}
+
+	.espacio2 {
+		margin-top:0px;
+	}
 	
 	.izquierda {
 		float:right;
@@ -838,19 +838,21 @@ textarea{
 		padding-right:0px;
 		padding-top:0px;
 	}
+
+	.marginfixed{
+		margin-top:0px;
+	}
+
 	.textoder{
 		width: 440px;
 		float: none;
-		padding-right:0px
+		padding-right:0px;
 	}
 
 	.textoizq {	
 		width:440px;
-		padding-bottom:25px;
 		margin-top:0px;
 		float:none;
-		padding-left:40px;
-		margin-left: 0px;
 	}
 	
 	.box{
@@ -864,7 +866,7 @@ textarea{
 	.reducir{
 		display: none;
 	}
-
+	/*1er titulo y texto*/
 	#title1position{
 		left: 20px;
 		top: 60px;
@@ -874,7 +876,7 @@ textarea{
 		left: 20px;
 		top: 550px;
 	}
-	
+	/*2do titulo y texto*/
 	#title2position{
 		left:-20px;
 		top: 30px;
@@ -884,54 +886,100 @@ textarea{
 		left: -20px;
 		top: 250px;
 	}
+	/*3er titulo y texto*/
+	#title3position{
+		left:20px;
+		top: 70px;
+	}
+	
+	#txt3position{
+		left: 20px;
+		top: 290px;
+	}
+
+	/*4to titulo y texto*/
+	#title4position{
+		left:-25px;
+		top: 25px;
+	}
+	
+	#txt4position{
+		left: -25px;
+		top: 250px;
+	}
+
+	/*5to titulo y texto*/
+	#title5position{
+		left:25px;
+		top: 70px;
+	}
+	
+	#txt5position{
+		left: 25px;
+		top: 250px;
+	}
 	
 	/*Capas de colores por atraccion*/
-
+	/*1era*/
 	.capa1naranja{
-		background-color:#ef9b52;
 		width:480px;
-		padding-bottom:5px;
-		padding-top:5px;
 	}
 
 	.capa2naranja{
-		background-color:#ee8529;
 		width: 480px;
-		padding-bottom:5px;
-		padding-top:5px;
 		margin-right:0px;
 	}
 
 	.capa3naranja{
-		background-color:#f27405;
 		width: 480px;
-		padding-top:5px;
 		overflow: auto;
 	}
 	
+	/*2da*/
 	.capa1verde{
-		background-color:#144d4d;
 		width:480px;
-		padding-bottom:5px;
-		padding-top:5px;
 		margin-left:0px;
-		overflow: auto;
 	}
 	
 	.capa2verde{
-		background-color:#093737;
 		width:480px;
-		padding-bottom:5px;
-		padding-top:5px;
 		margin-left:0px;
-		overflow: auto;
 	}
 		
 	.capa3verde{
-		background-color:#012626;
 		width:480px;
-		padding-top:5px;
 		margin-left:0px;
+		overflow: auto;
+	}
+
+	/*3era*/
+	.capa1verde2{
+		width:480px;
+	}
+	
+	.capa2verde2{
+		width:480px;
+	}
+	
+	.capa3verde2{
+		width:480px;	
+		overflow: auto;
+	}
+
+	/*4ta*/
+	.capa1azul{
+		width:480px;
+		margin-left:0px;
+	}
+	
+	.capa2azul{
+		width:480px;
+		margin-left: 0px;
+	}
+	
+	.capa3azul{
+		width:480px;
+		margin-left: 0px;
 		overflow: auto;
 	}
 }
