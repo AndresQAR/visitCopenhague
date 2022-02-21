@@ -4,13 +4,13 @@
 
 body{
 	margin:0;
-	font-family:"Roboto";
+	font-family: 'Open Sans', sans-serif;
 	background-color:#006699; 
 } 
 
 #principal{ 
 	width:1280px;
-	font-family:"Roboto";
+	font-family: 'Open Sans', sans-serif;
 	margin: auto;
 	background-color: white;
 }
@@ -131,7 +131,7 @@ a:hover{
 
 .caption  {
 	padding-top: 320px;
-	font-family: "Roboto";
+	font-family: 'Open Sans', sans-serif;
 	margin-left: 80px;
 	font-size: 40px;
 	color: #fff;
@@ -150,7 +150,7 @@ a:hover{
 	background-color:#03729e;	
 	margin-top:-23px;
 	height:300px;
-	font-family:"Roboto";
+	font-family: 'Open Sans', sans-serif;
 	font-weight:500;
 	color:white;
 	font-size:40px;
@@ -230,7 +230,7 @@ a:hover{
 }
 
 #texto1 {
-	font-family:"Roboto";
+	font-family: 'Open Sans', sans-serif;
 	font-weight:500;
 	color:black;
 	margin-left:40px;
@@ -243,7 +243,7 @@ a:hover{
 }
 
 #texto2 {
-	font-family:"Roboto";
+	font-family: 'Open Sans', sans-serif;
 	font-weight:500;
 	color:black;
 	margin-right:40px;
@@ -289,7 +289,7 @@ a:hover{
 
 .caption1{
 	padding-top: 250px;
-	font-family: "Roboto";
+	font-family: 'Open Sans', sans-serif;
 	margin-left: 80px;
 	font-size: 40px;
 	color: #fff;
@@ -299,7 +299,7 @@ a:hover{
 /*titulos de los itinerarios*/
 
 #itinerario h3{
-	font-family:"Roboto";
+	font-family: 'Open Sans', sans-serif;
 	font-size:50px;
 	font-weight:500;
 	color:white;
@@ -639,7 +639,7 @@ textarea{
 
 	#principal{ 
 		width:480px;
-		font-family:"Roboto";
+		font-family: 'Open Sans', sans-serif;
 		margin: auto;
 		background-color: white;
 	}
@@ -654,7 +654,7 @@ textarea{
 
 	header h1{
 		font-size: 40px;
-		margin-left: 70px;
+		margin-left:20px;
 		border: 1px solid red;
 	}
 
@@ -704,7 +704,7 @@ textarea{
 	
 	.caption  {
 		padding-top: 320px;
-		font-family: "Roboto";
+		font-family: 'Open Sans', sans-serif;
 		margin-left: 40px;
 		font-size: 20px;
 		color: #fff;
@@ -794,10 +794,49 @@ textarea{
 	
 	.caption1{
 		padding-top: 320px;
-		font-family: "Roboto";
+		font-family: 'Open Sans', sans-serif;
 		margin-left: 40px;
 		font-size: 20px;
 		color: #fff;
 		font-weight: 100px;	
 	}
+
+	/*Imagenes de los itinerarios*/
+
+	#itinerario img {
+		padding-left:0px;
+	}
+
+	.textoder{
+		width: 440px;
+	}
+	
+	.box{
+		position: relative;
+		border: 1px solid blue;
+
+	}
+
+	.overimg{
+		position: absolute;
+		left: 20px;
+		top: 550px;
+	}
+
+	.overimgtxt{
+		position: absolute;
+		left: 20px;
+		top: 60px;
+	}
+	
+	.derecha {
+		float: none;
+		padding-right:0px;
+		padding-top:0px;
+ 
+	}
+	.reducir{
+		display: none;
+	}
+	
 }
