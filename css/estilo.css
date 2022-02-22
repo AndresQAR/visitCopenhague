@@ -261,10 +261,10 @@ a:hover{
 
 #footer {
 	width:1280px;
-	height:170px;
 	background-color:#025373;
-	margin-top:-25px;
-	padding-top: 30px;
+	margin-top: 0px;
+	padding-top: 0px;
+	overflow: auto	;
 }
 
 #footer li {
@@ -594,6 +594,13 @@ textarea{
 	display:block;
 }
 
+/*Botones*/
+
+.verde{
+	background-color: #87b719;
+	color: white;
+}
+
 /*mapa*/
 
 #mapa {
@@ -606,9 +613,9 @@ textarea{
 /*menasje de consulta enviada*/
 
 #gracias {
-	height: 500px;
+	height: 685px;
 	color: white;
-	background: #f27405 url(../imagenes/celular.png) no-repeat 105px 38px;
+	background: #f27405 url(../imagenes/celular.png) no-repeat 105px 110px;
 	
 }
 
@@ -616,7 +623,7 @@ textarea{
 	font-size: 70px;	
 	display: inline-block;
 	margin-left: 800px;
-	margin-top: 90px;
+	margin-top: 160px;
 	font-weight: 200;
 }
 
@@ -625,6 +632,7 @@ textarea{
 	margin-top: 20px;
 	font-weight: 300;
 }
+
 
 /*Mobile*/
 
@@ -1128,14 +1136,45 @@ textarea{
 
 	#formulario form input{
 		width: 200px;
-		height: 30px;
-		
+		height: 30px;	
 	}
 
 	/*mapa*/
 
 	#mapa {
 		width: 480px;
+	}
 
+
+	/*Pagina Gracias*/
+
+	/*menasje de consulta enviada*/
+
+	#gracias {
+		position: relative;
+		color: white;
+		background: #f27405 url(../imagenes/celular-mobile.png) no-repeat 95px 350px;
+		
+	}
+
+	#enviada{
+		position: absolute;
+		font-size: 40px;
+		text-align: center;	
+		display: inline-block;
+		margin-left: 0px;
+		margin-top: 0px;
+		font-weight: bold;
+		top: 80px;
+		left: 10px;
+	}
+	
+	#comunicarte{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: 0px;
+		font-weight: 400;
+		top: 230px;
+		left: 100px;
 	}
 }
