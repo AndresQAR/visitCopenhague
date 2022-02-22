@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <title>Contacto Copenhague</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilo.css"/>
 </head>
 <body>
 
 <div id="principal">
 	
 	<header>
-
+		<a href="#menuNav" id="menu">Menu</a>
 		<h1>Visita Copenhague</h1>
 
-		<nav>      
+		<nav id="menuNav">      
 
 			<ul>
+				<li><a href="#"><span id="cerrar">Cerrar</span></a></li>
 				<li><a href="index.html"> Home </a></li>
 				<li><a href="atracciones.html"> Atracciones </a></li>
 				<li><a href="informacion.html"> Información </a></li>
@@ -69,13 +73,14 @@
 				</div>
 
 				<div>
-					<input id="acepto" checked="checked"  type="checkbox" name="acepto" value="si" />
+					<input id="acepto" type="checkbox" name="acepto" value="si" />
 					<label for="acepto">Acepto los terminos y condiciones</label>
 				</div>
     
+			<input type="reset" value="Comenzar de nuevo">
+			
 			<input type="submit" value="Enviar">
 
-    		<input type="reset" value="Comenzar de nuevo">
 
 		</form>
 	</div>

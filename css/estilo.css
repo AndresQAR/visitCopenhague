@@ -513,14 +513,16 @@ a:hover{
 	float:right;
 	margin-top: 85px;
 	padding-right: 100px;
-	width: 495px; 
+	width: 495px;
+	font-weight: bold; 
 }
 
 .izquierda2{
 	float:left;
 	margin-left: 50px;
 	margin-top:-400px;
-	width: 525px; 
+	width: 525px;
+	font-weight: bold; 
 }
 
 /*Textos tours por seccion derecha e izquierda*/
@@ -548,6 +550,7 @@ a:hover{
 #itinerario a {
 	text-decoration: none;
 	color: white;
+	font-weight: bold;
 }
 
 
@@ -569,7 +572,7 @@ a:hover{
 #formulario {
 	width:1280px;
 	height:500px;
-	padding-top:85px;
+	padding:30px 0px;
 	color:white;
 	background-color:#025373;
 	font-size:20px;
@@ -1020,7 +1023,7 @@ textarea{
 		padding-right: 0px;
 		width: 400px;
 		top: 60px;
-		left: 15px; 
+		left: 15px;
 	}
 
 	.izquierda2{
@@ -1060,5 +1063,79 @@ textarea{
 
 	#positioncastletxt{
 		top: 255px;
+	}
+
+	/*Pagina Contacto*/
+
+	/*banner superior */
+
+	#banner4{
+		width: 480px;
+		height: 520px;
+		background-image: url(../imagenes/blagaardsgade-mobile.jpg);
+	}
+
+	/*Formulario bloque completo*/
+
+	#formulario {
+		width:420px;
+		height: auto;
+		padding:30px 30px;
+		color:white;
+		background-color:#025373;
+		font-size:16px;
+		line-height : 35px;
+		margin: auto;
+		text-align:left;
+	}
+	
+	#formulario h2{
+		width:418px;
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+
+	#formulario p{
+		width: 418px;
+		font-size: 17px;
+		margin-bottom: 20px;
+	}
+
+	.italic{
+		font-style: italic;
+		font-weight: 400;
+	}
+
+	#formulario form div input{
+		width: 400px;
+		height: 30px;
+	}
+
+	/*textarea*/
+
+	textarea{
+		width: 400px;
+		resize: none;
+	}
+
+	/*checkbox*/
+
+	#acepto{
+		width: 20px !important;
+	}
+
+	/*botones*/
+
+	#formulario form input{
+		width: 200px;
+		height: 30px;
+		
+	}
+
+	/*mapa*/
+
+	#mapa {
+		width: 480px;
+
 	}
 }
