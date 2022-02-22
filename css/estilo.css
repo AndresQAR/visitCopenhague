@@ -996,10 +996,12 @@ textarea{
 
 	.tourd{
 		width: 480px;
+		padding-bottom: 0px;
 	}
 
 	.touri{
 		width: 480px;
+		padding-bottom: 0px;
 	}
 	
 	/*Imagenes de tours por seccion derecha e izquierda*/
@@ -1017,15 +1019,17 @@ textarea{
 		margin-top: 0px;
 		padding-right: 0px;
 		width: 400px;
-		top: 120px;
+		top: 60px;
 		left: 15px; 
 	}
 
 	.izquierda2{
 		float:none;
 		margin-left: 0px;
-		margin-top:-400px; /*ojo puede ser un problema*/
-		width: 400px; 
+		margin-top:0px; 
+		width: 400px;
+		top: 60px;
+		left: 15px;  
 	}
 
 	/*Textos tours por seccion derecha e izquierda*/
@@ -1036,16 +1040,17 @@ textarea{
 		padding-right: 0px;	
 		margin-top:0px;
 		float: none;
-		top: 230px;
+		top: 300px;
 		left: 15px; 
 	}
 
 	.izq2{
-		color:white;
-		width:495px;
-		padding-bottom:25px;
-		margin-left: 50px;	
-		margin-top:-250px;
-		float: left;
+		width:460px;
+		padding-bottom:0px;
+		margin-left: 0px;	
+		margin-top:0px;
+		float: none;
+		top: 300px;
+		left: 15px;		
 	}
 }
