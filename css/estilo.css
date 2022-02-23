@@ -16,8 +16,8 @@ body{
 }
 
 *{
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 /*Encabezado*/
@@ -594,7 +594,8 @@ a:hover{
 /*titulo de inputs*/
 
 #formulario form div span{
-	margin: 10px 0px;	
+	margin: 10px 0px;
+	font-weight: bold;	
 }
 /*textarea*/
 
@@ -704,7 +705,7 @@ textarea{
 	#menuNav:target{
 		display:block;
 		width:200px; 
-		margin-left:140px;
+		margin-left:155px;
 	}
 
 	#menuNav{
@@ -948,7 +949,7 @@ textarea{
 	
 	#txt5position{
 		left: 25px;
-		top: 250px;
+		top: 270px;
 	}
 	
 	/*Capas de colores por atraccion*/
@@ -1106,7 +1107,7 @@ textarea{
 		background-image: url(../imagenes/blagaardsgade-mobile.jpg);
 	}
 
-	/*Formulario bloque completo*/
+	/*Info formulario*/
 
 	#formulario {
 		width:420px;
@@ -1130,12 +1131,15 @@ textarea{
 		width: 418px;
 		font-size: 17px;
 		margin-bottom: 20px;
+		margin-left: 0px;
 	}
 
 	.italic{
 		font-style: italic;
 		font-weight: 400;
 	}
+
+	/*Formulario*/
 
 	#formulario form div input{
 		width: 400px;
