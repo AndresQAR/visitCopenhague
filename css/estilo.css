@@ -573,12 +573,16 @@ a:hover{
 	width:1280px;
 	padding:30px 0px;
 	color:white;
-	background-color:#025373;
 	font-size:20px;
 	line-height : 35px;
-	margin: auto;
 	text-align:center;
 }
+
+form{
+	width: 500px;
+	margin-left:400px ;
+}
+
 /*Texto y titulo*/
 
 #formulario p{
@@ -595,14 +599,24 @@ a:hover{
 
 #formulario form div span{
 	margin: 10px 0px;
-	font-weight: bold;	
+	font-weight: bold;
+	text-align: left;	
 }
+
+/*inputs*/
+
+#formulario form div input{
+	width: 450px;
+	height: 30px;
+}
+
 /*textarea*/
 
 textarea{
-	width: 200px;
+	width: 450px;
 	resize: none;
 }
+
 /*input file*/
 
 .inputfile{
@@ -613,6 +627,10 @@ textarea{
 
 #formulario span {
 	display:block;
+}
+
+#checkbox{
+	width: 20px !important;
 }
 
 /*Botones*/
@@ -633,6 +651,7 @@ textarea{
 	display:block;
 	margin:auto;
 }
+
 
 /*Pagina Gracias*/
 
@@ -1139,11 +1158,13 @@ textarea{
 		font-weight: 400;
 	}
 
-	/*Formulario*/
+	form{
+		width: 420px;
+		margin-left:0px ;
+	}
 
 	#formulario form div input{
 		width: 400px;
-		height: 30px;
 	}
 
 	/*textarea*/
@@ -1151,12 +1172,6 @@ textarea{
 	textarea{
 		width: 400px;
 		resize: none;
-	}
-
-	/*checkbox*/
-
-	#acepto{
-		width: 20px !important;
 	}
 
 	/*botones*/
