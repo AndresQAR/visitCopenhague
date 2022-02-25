@@ -42,49 +42,49 @@
 	</div>	
 	
 	<div id="formulario">
+		<div id="formtxt">
+			<h2>¿Querés reservar una visita guiada?</h2>
 
-		<h2>¿Querés reservar una visita guiada?</h2>
-
-		<p>A través de este formulario podés reservarla y te enviaremos fechas disponibles para poder visitar los mejores lugares de Copenhague.</p>
+			<p>A través de este formulario podés reservarla y te enviaremos fechas disponibles para poder visitar los mejores lugares de Copenhague.</p>
+		</div>
 
 		<form action="http://recursos.grodriguez.com.ar/FORM/" method="post" enctype="multipart/form-data" target="_blank">
 
-				<div>
-					<span>Nombre y Apellido</span>
-						<input type="text" name="nombre" placeholder="*Campo Obligatorio"  required />
-				</div>
-				<div>
-					<span>Email:</span>
-						<input type="email" name="email" placeholder="*Campo Obligatorio" required />
-				</div>
-				<div>
-					<label><span>¿Qué lugar deseas visitar?</span></label>
-					<input type="text" name="visita guiada" list="VisitaGuiada" placeholder="*Campo Obligatorio" required />
-					<datalist id="VisitaGuiada">
-						<option>Tour en Bici</option>
-						<option>Tour en Segway</option>
-						<option>Tour por los canales</option>
-						<option>Tour por los castillos</option>
-					</datalist>
-				</div>
-				<div>
-					<span>Mensaje</span>
-					<textarea name="mensaje" rows="5" cols="15"></textarea>
-				</div>
-				<div class="inputfile">
-					<span>Subi una foto de tu documento *Obligatorio* </span>
-					<input class="inputfile" type="file" name="archivo" required>
-				</div>
+			<div>
+				<span>Nombre y Apellido</span>
+					<input type="text" name="nombre" placeholder="*Campo Obligatorio"  required />
+			</div>
+			<div>
+				<span>Email:</span>
+					<input type="email" name="email" placeholder="*Campo Obligatorio" required />
+			</div>
+			<div>
+				<label><span>¿Qué lugar deseas visitar?</span></label>
+				<input type="text" name="visita guiada" list="VisitaGuiada" placeholder="*Campo Obligatorio" required />
+				<datalist id="VisitaGuiada">
+					<option>Tour en Bici</option>
+					<option>Tour en Segway</option>
+					<option>Tour por los canales</option>
+					<option>Tour por los castillos</option>
+				</datalist>
+			</div>
+			<div>
+				<span>Mensaje</span>
+				<textarea name="mensaje" rows="5" cols="15"></textarea>
+			</div>
+			<div class="inputfile">
+				<span>Subi una foto de tu documento *Obligatorio* </span>
+				<input class="inputfile" type="file" name="archivo" required>
+			</div>
 
-				<div>
-					<input id="checkbox" type="checkbox" name="acepto" value="si" />
-					<label for="acepto">Acepto los terminos y condiciones</label>
-				</div>
+			<div>
+				<input id="checkbox" type="checkbox" name="acepto" value="si" />
+				<label for="acepto">Acepto los terminos y condiciones</label>
+			</div>
     
 			<input class="botones" type="reset" value="Comenzar de nuevo">
 			
 			<input class="verde botones" type="submit" value="Enviar">
-
 
 		</form>
 	</div>

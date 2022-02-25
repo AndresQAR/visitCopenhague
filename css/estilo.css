@@ -1,6 +1,9 @@
 /*Pagina inicio*/
 
 /*body*/
+.red{
+	background-color: red;
+}
 
 body{
 	margin:0;
@@ -554,8 +557,6 @@ a:hover{
 }
 
 
-
-
 /*Pagina Contacto*/
 
 /*banner superior */
@@ -566,7 +567,6 @@ a:hover{
 	background-image: url(../imagenes/Blagaardsgade.jpg);
 }
 
-
 /*Formulario bloque completo*/
 
 #formulario {
@@ -575,24 +575,31 @@ a:hover{
 	color:white;
 	font-size:20px;
 	line-height : 35px;
-	text-align:center;
+	background: #025373 url(../imagenes/calendar.jpg) no-repeat 220px 250px ;
+	overflow: auto;
 }
 
 form{
 	width: 500px;
-	margin-left:400px ;
+	float: right;
+	margin-right: 50px;
 }
 
 /*Texto y titulo*/
 
 #formulario p{
-	width: 600px;
+	width: 570px;
 	text-align: left;
-	margin-left: 360px;
 }
 
 #formulario h2{
 	margin-bottom: 25px;
+}
+
+#formtxt{
+	width:570px;
+	float: left;
+	margin-left: 100px;
 }
 
 /*titulo de inputs*/
@@ -636,6 +643,7 @@ textarea{
 /*Botones*/
 
 .botones{
+	margin-top: 20px;
 	width: 200px;
 	height: 30px;	
 }
@@ -1133,7 +1141,7 @@ textarea{
 		height: auto;
 		padding:30px 30px;
 		color:white;
-		background-color:#025373;
+		background:#025373;
 		font-size:16px;
 		line-height : 35px;
 		margin: auto;
@@ -1160,7 +1168,15 @@ textarea{
 
 	form{
 		width: 420px;
-		margin-left:0px ;
+		margin-left: 0px;
+		margin-right: 0px;
+		float: none;
+	}
+
+	#formtxt{
+		width:420px;
+		float: none;
+		margin-left: 0px;
 	}
 
 	#formulario form div input{
