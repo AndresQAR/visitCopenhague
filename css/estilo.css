@@ -262,21 +262,24 @@ a:hover{
 
 /*footer*/
 
-#footer {
+footer {
 	width:1280px;
 	background-color:#025373;
 	margin-top: 0px;
 	padding-top: 0px;
-	overflow: auto	;
+	overflow: auto;
 }
 
-#footer li {
+footer ul{
+	overflow: auto;
+}
+
+footer ul li {
 	display:inline-block;
-	margin: 20px;
+	margin: 15px;
 	text-align:center;
 	display:block;
 	color:white;
-	line-height:13px;
 }
 
 
@@ -826,14 +829,12 @@ textarea{
 
 	/*footer*/
 
-	#footer {
+	footer {
 		width:480px;
-		height:170px;
 		background-color:#025373;
 		margin-top:-25px;
 		padding-top: 30px;
 	}
-
 
 	/*Pagina atracciones*/
 
