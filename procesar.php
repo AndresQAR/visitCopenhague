@@ -1,12 +1,12 @@
 <?php
-$nombre_apellido = $_POST['nombre'];
+$nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $atraccion = $_POST['atraccion'];
 /*$archivo = $_POST['archivo']; Nota: German comentaba en el video que este seria el unico input sin funcionalidad en php*/
 $condiciones = $_POST['acepto'];
 
-$mensaje = "<h1>".$nombre_apellido."</h1>";
-$mensaje = "<h2>".$atraccion."</h2>";
+$mensaje = "<h1>".$nombre."</h1>";
+$mensaje .= "<h2>".$atraccion."</h2>";
 $mensaje .= "<hr />";
 $mensaje .= $_POST['mensaje'];
 
